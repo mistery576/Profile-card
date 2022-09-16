@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body{
+	background: rgb(89,81,222);
+	background: linear-gradient(90deg, rgba(89,81,222,1) 0%, 		rgba(156,76,119,1) 45%, rgba(41,71,203,1) 100%);
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container {
+	background: rgb(219,128,222);
+	background: linear-gradient(0deg, rgba(219,128,222,1) 0%, rgba(226,206,203,1) 78%);
+	margin: 100px;
+	border-radius: 30px;
+	box-shadow: 6px 12px 6px;
+	padding: 64px;
+}
+
+.cabecalho {
+	display:flex;
+	justify-content: space-between;
+}
+
+.perfil {
+	display: flex;
+	
+}
+
+.foto {
+	border-radius: 400px;
+	size: 200vh;
+	max-height: 160px;
+	box-shadow: 4px 4px 4px
+}
+
+.titulo {
+	margin-left: 50px;
+}
+
+.titulo h1{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.tema button{
+	align-self: flex-end;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 8px 16px;
+	border-radius: 20px;
+	background-color: #212121;
+	color: #FFF8E1;
+}
+
+.redes-sociais {
+	font-size: 40px;
+	position: relative;
+	
+}
+
+.projetos-lista {
+	position: absolute;
+	text-align: center;
+	right: 200px;
+	bottom: 80px;
+	margin: -120px;
+}
+
+ul{
+	list-style-type: none;
+	
+}
+
+a {
+	text-decoration: none;
+	font-size: 30px;
+}
+
+.dark {
+	background: linear-gradient(236.885deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .container {
+	background: #333439;
+	color: #F6F6F6;
+}
+
+.dark a {
+	color: #FFEBEE;
+}
+
+.dark .tema button{
+	background: #1c1c1c;
+	color: #ffffff;
+	border: 2px solid #f7f7f7;
+}
